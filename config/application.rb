@@ -1,7 +1,9 @@
 require File.expand_path('../boot', __FILE__)
 
 # Pick the frameworks you want:
-require "active_record/railtie"
+#commented the followint to get rid of active record connection not esablished error
+#require "active_record/railtie"
+require "active_record"
 require "action_controller/railtie"
 require "action_mailer/railtie"
 require "active_resource/railtie"
